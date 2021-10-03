@@ -1,0 +1,47 @@
+Inicio
+
+- git init -> inicia o repositório local
+- git add <nome do arquivo> -> adiciona o arquivo no git
+- git commit -m "<mensagem>" -> realiza o commit
+- git log -> vizualiza os commit(pontos da linha do tempo)
+- git status -> informa o esdo de alteração
+- git show -> apresenta determinado ponto na linha do tempo
+
+
+Criano uma BRANCH (linha secundaria) - para não cagar com o projeto
+
+- git branch <nome> -> criando uma branch nova
+- git checkout <nome> -> muda para a branch nova
+- touch <nome.html> -> criando arquivo na nova linha do tempo
+
+
+salvando na branch
+- git add <nome do arquivo> -> adiciona o arquivo no git
+- git commit -m "<mensagem>" -> realiza o commit
+
+
+Juntando as linhas do tempo
+
+- git merge <nome da branch criada> -> junta na master
+
+
+Deletando a BRANCH
+
+- git branch -D <nome>
+
+
+Verificando as branch
+- git branch
+
+
+Vendo repositórios remotos
+- git remote -v
+
+Craindo a Main do gitHub
+- git branch -M main
+
+Criando a Origin do gitHub e enviando de tabela
+- git push -u origin main
+
+Atalho para adicionar tudo da pasta ao git
+- git add .
