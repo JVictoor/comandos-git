@@ -45,3 +45,10 @@ Criando a Origin do gitHub e enviando de tabela
 
 Atalho para adicionar tudo da pasta ao git
 - git add .
+
+Subindo para o gitHub depois do primeiro up
+- git push
+
+Configuração do git para não precisar ficar colocando a senha todas as vezes
+- git config credential.helper store
+
