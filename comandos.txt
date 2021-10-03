@@ -10,6 +10,8 @@ Inicio
 
 Criano uma BRANCH (linha secundaria) - para não cagar com o projeto
 
+- git checkout -b <nome da branch> -> comando curto para criar a branch e mudar para ela automaticamente
+
 - git branch <nome> -> criando uma branch nova
 - git checkout <nome> -> muda para a branch nova
 - touch <nome.html> -> criando arquivo na nova linha do tempo
@@ -45,10 +47,16 @@ Criando a Origin do gitHub e enviando de tabela
 
 Atalho para adicionar tudo da pasta ao git
 - git add .
+- git commit -am "mensagem" -> atualiza e commita no mesmo tempo(totos os arquivos)
 
 Subindo para o gitHub depois do primeiro up
 - git push
 
 Configuração do git para não precisar ficar colocando a senha todas as vezes
 - git config credential.helper store
+
+Pegando o projeto do repositório so gitHub
+
+- git clone <link>
+
 
